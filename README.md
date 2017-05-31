@@ -1,9 +1,10 @@
 # fncPlayground
 scripts for the fake news challenge : http://www.fakenewschallenge.org/
+The git contains the scripts for running the fnc challenge model.
+We are getting an LSI representation of the bodies and stances, concatenating them and putting them into a neural network(vanilla)
 
-The git contains the data and the script for computing the tfidfs from the stance and the body and get the cosine distance for the pairs as mentioned in the train_stances.csv
 
-To get the histogram run: </br>
+To run the models use: </br>
 
 python ./Fnc_lsi.py
 
