@@ -1,0 +1,115 @@
+%paste
+from collections import defaultdict
+bodyTextDup = defaultdict(list)
+%paste
+for lst in miniList:
+    bodyTextDup[lst[1]] = appendBodyList(bodyTextDup[lst[1]])
+for lst in miniList:
+    bodyTextDup[lst[1]] = appendBodyList(bodyTextDup[lst[1]],lst[0],lst[2])
+for vales in bodyDict.keys():
+    bodyTextDup[vales] = []
+for lst in miniList:
+    bodyTextDup[lst[1]] = appendBodyList(bodyTextDup[lst[1]],lst[0],lst[2])
+miniList[0]
+bodyTextDup[712]
+list()
+for vales in bodyDict.keys():
+    bodyTextDup[vales] = list()
+bodyTextDup[712]
+for lst in miniList:
+    bodyTextDup[lst[1]] = appendBodyList(bodyTextDup[lst[1]],lst[0],lst[2])
+bodyTextDup[712]
+appendBodyList([],44,'disagree')
+a = appendBodyList([],44,'disagree')
+a
+for vales in bodyDict.keys():
+    bodyTextDup[vales] = list()
+bodyTextDup[712]
+a = []
+a.index
+a.index()
+len(a)
+%paste
+for lst in miniList:
+    bodyTextDup[lst[1]] = appendBodyList(bodyTextDup[lst[1]],lst[0],lst[2])
+for vales in bodyDict.keys():
+    bodyTextDup[vales] = list()
+for lst in miniList:
+    bodyTextDup[lst[1]] = appendBodyList(bodyTextDup[lst[1]],lst[0],lst[2])
+type(a)
+type(b)
+%paste
+for lst in miniList:
+    bodyTextDup[lst[1]] = appendBodyList(bodyTextDup[lst[1]],lst[0],lst[2])
+bodyTextDup = defaultdict(list)
+for lst in miniList:
+    bodyTextDup[lst[1]].append([lst[0],lst[2]])
+bodyTextDup[0]
+bodyTextDup[1]
+bodyTextDup[2]
+bodyTextDup[3]
+bodyDict[0]
+bodyDict[1]
+bodyTextDup = defaultdict(list)
+for
+for lst in miniList:
+    if lst[2] != 'unrelated'
+    bodyTextDup[lst[1]].append([lst[0],lst[2]])
+for lst in miniList:
+    if lst[2] != 'unrelated':
+        bodyTextDup[lst[1]].append([lst[0],lst[2]])
+bodyTextDup.keys()
+bodyTextDup[1500]
+bodyDict[1500]
+bodyDict[1500].join(" ")
+stanceDict[409]
+stanceDict[410]
+stanceDict[411]
+len(dictionary)
+import nltk
+%paste
+from nltk.tag.stanford import StanfordPOSTagger
+%paste
+import os
+%paste
+englishPOStagger.tag(bodyDict[1500])
+np.max(bodyDict.values())
+bodyTextDup[1500]
+stanceDict[409]
+englishPOStagger.tag(stanceDict[409])
+englishPOStagger.tag(stanceDict[410])
+bodyTextDup.keys()
+bodyDict[1498]
+bodytextDup[1498]
+bodytxtDup[1498]
+bodyTextDup[1498]
+bodyTextDup[1491]
+bodyText[1491]
+ls -trl
+CorporaFNCbody[0]
+%paste
+vocab = dictionary.values()
+word_vecs = load_bin_vec('/home/deep/GoogleNews-vectors-negative300.bin',vocab)
+wordFreqDict = defaultdict(float)
+for bodies in bodyDict.values():
+    for word in bodies:
+        wordFreqDict[word] += 1.0
+wordFreqDict.values()
+for words in wordFreqDict.keys():
+    if (wordFreqDict[words] < 5.0):
+        del(wordFreqDict[words])
+len(wordFreqDict.keys())
+for bodies in bodyDict.values():
+    for word in bodies:
+        wordFreqDict[word] += 1.0
+wordFreqDict = defaultdict(float)
+for bodies in bodyDict.values():
+    for word in bodies:
+        wordFreqDict[word] += 1.0
+for words
+for words in wordFreqDict.keys():
+    if (wordFreqDict[words] < 3.0):
+        del(wordFreqDict[words])
+len(wordFreqDict.keys())
+vocab = wordFreqDict.keys()
+%history -f FncHist.txt
