@@ -364,7 +364,7 @@ x_test = [(get_test_lsi_concatenated(test_miniList[i][0],test_miniList[i][1])) f
 untagged_articles = [i for i in range(0,len(test_miniList)) if test_y_label[i] == 'untagged']
 
 x_test = np.array(x_test)
-predictions = model.predict(x_test)
+predictions = model.predict_classes(x_test)
 pred_dictionary = dict(zip(untagged_articles,predictions))
 #getting the final labels
 
